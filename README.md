@@ -1,1 +1,18 @@
-# sum-of-even-index-elements-in-array
+// sum-of-even-index-elements-in-array
+#include <stdio.h>
+int main()
+  {
+int arr[5];
+   int i,sum=0;
+   printf("Enter the values:");
+   for(i=0;i<5;i++)
+   {
+       scanf("%d",&arr[i]);
+       if(i%2==0)
+      { sum=sum+arr[i];}
+   }
+      printf("sum=%d\n",sum);
+     
+       return 0;
+}
+
